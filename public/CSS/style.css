@@ -1,7 +1,9 @@
+/*PARTE HECHA POR MIGUEL TUCTO */
 body{
     margin: 0 auto;
     font-family: Helvetica, sans-serif;
 }
+
 .zone{
     color: #FFF;
     font-size: 2em;
@@ -42,6 +44,16 @@ a{
     width: 100%;
     height: 100%;
 }
+.cover2{
+    width:35%;
+    height:20%;
+    transform: translate(5%,10%);
+}
+.cover3{
+    width: 40%;
+    height: 60%;
+    transform: translate(148%,0%);
+}
 .coverText{
     position: absolute;
     left: 20%;
@@ -62,6 +74,22 @@ a{
     color:white;
     font-weight: bold;
 }
+.coverText2{
+    position: absolute;
+    left:73%;
+    top: 125%;
+    transform: translate(-50%,-50%);
+    color: dodgerblue;
+    font-weight: bold;
+}
+.coverText3{
+    position: absolute;
+    left:19.2%;
+    top: 162%;
+    transform: translate(-50%,-50%);
+    color:dodgerblue;
+    font-weight: bold;
+}
 .coverText1 h2{
     color:white;
     font-size: 25px;
@@ -79,6 +107,21 @@ footer p{
     grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
     grid-gap: 10px;
 }
+.card{
+    background-color: #444;
+    margin: 50px;
+}
+.card>img{
+    max-width: 100%;
+    height: auto;
+}
 .blue{
     background: #7e57c2;
+}
+.button{
+    width: 250px;
+    height: 250px;
+}
+.other{
+    background: whitesmoke;
 }
